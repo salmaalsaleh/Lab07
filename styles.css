@@ -64,7 +64,7 @@
 .translate-button{
     border: black solid 3px;
     background-color: rgb(239, 211, 238);
-    transition: transform; 
+    transition: all; 
 
 }
 .translate-button:hover{
@@ -74,7 +74,7 @@
 .translate-div{
     border: black solid 3px;
     background-color: rgb(230, 23, 223);
-    transition: transform; 
+    transition: all; 
 }
 .translate-div:hover{
     transform: translate(100px,0px);
@@ -94,7 +94,7 @@
 .skew-paragraph{
     border: black solid 3px;
     background-color: rgba(230, 23, 23, 0.687);
-    transition: transform;
+    transition: all;
 }
 .skew-paragraph:hover{
     transform: skewY(15deg)
